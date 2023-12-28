@@ -1,0 +1,8 @@
+ssh bandit0@bandit.labs.overthewire.org -p 2220
+yes
+PASSWORD:bandit0
+bandit0@bandit:~$ ls
+bandit0@bandit:~$ cat readme
+NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
+
+Key: NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL

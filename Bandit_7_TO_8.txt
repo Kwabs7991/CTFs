@@ -1,0 +1,17 @@
+ssh bandit7@bandit.labs.overthewire.org -p 2220
+PASSWORD:z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
+bandit7@bandit:~$ ls -a
+.  ..  .bash_logout  .bashrc  data.txt  .profile
+bandit7@bandit:~$ du data.txt
+4088    data.txt
+bandit7@bandit:~$ grep millionth data.txt
+millionth       TESKZC0XvTetK0S9xNwm25STk5iWrBvP
+bandit7@bandit:~$ exit
+logout
+
+
+
+
+-> https://www.ibm.com/docs/en/i/7.2?topic=data-grep
+
+-> https://kodekloud.com/blog/check-file-size-in-linux/#1-find-file-size-in-linux-using-the-du-command

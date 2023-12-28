@@ -1,0 +1,15 @@
+ssh bandit6@bandit.labs.overthewire.org -p 2220
+PASSWORD:P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
+bandit6@bandit:~$ ls
+bandit6@bandit:~$ ls -a
+.  ..  .bash_logout  .bashrc  .profile
+bandit6@bandit:~$ find / -user bandit7 -group bandit6 -size 33c -type f 2>/dev/null
+/var/lib/dpkg/info/bandit7.password
+bandit6@bandit:~$ cat /var/lib/dpkg/info/bandit7.password
+z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
+bandit6@bandit:~$exit
+logout
+
+
+
+https://dev.to/kkaosninja/overthewire-bandit-level-6-level-7-walk-through-2nbn
