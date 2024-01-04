@@ -1,0 +1,8 @@
+ssh bandit10
+@bandit.labs.overthewire.org -p 2220
+PASSWORD:EN632PlfYiZbn3PhVK3XOGSlNInNE00t
+bandit10@bandit:~$ ls -a
+.  ..  .bash_logout  .bashrc  data.txt  .profile
+bandit10@bandit:~$ strings data.txt | grep "==="
+========== G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
+bandit10@bandit:~$ 
